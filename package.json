@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "projector-example",
+  "version": "1.0.0",
+  "description": "Example of how to setup a projector repository",
+  "main": "index.js",
+  "repository": "projectorjs/projector-example",
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "projector ./projector.js build",
+    "clean": "projector ./projector.js clean"
+  },
+  "workspaces": [
+    "components/*",
+    "website"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "flow-bin": "^0.49.1",
+    "projector": "^2.0.0",
+    "projector-cli": "^3.0.0",
+    "projector-spawn": "^1.0.0",
+    "projector-yarn": "^3.0.0"
+  }
+}
