@@ -3,6 +3,7 @@
 
 const components = require('./components/projector');
 const website = require('./website/projector');
+const flow = require('./scripts/flow');
 
 exports.build = async () => {
   await clean();
@@ -17,4 +18,8 @@ let clean = exports.clean = async () => {
     components.clean(),
     website.clean(),
   ]);
+};
+
+exports.test = async () => {
+  await flow();
 };

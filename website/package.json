@@ -1,4 +1,8 @@
 {
   "name": "@projector-example/website",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "@projector-example/button": "^1.0.0",
+    "@projector-example/heading": "^1.0.0"
+  }
 }

@@ -9,7 +9,8 @@
   "license": "MIT",
   "scripts": {
     "build": "projector ./projector.js build",
-    "clean": "projector ./projector.js clean"
+    "clean": "projector ./projector.js clean",
+    "test": "projector ./projector.js test"
   },
   "workspaces": [
     "components/*",
